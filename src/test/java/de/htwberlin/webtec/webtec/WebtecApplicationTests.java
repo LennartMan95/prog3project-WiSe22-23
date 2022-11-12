@@ -8,6 +8,7 @@ class WebtecApplicationTests {
 
 	@Test
 	void contextLoads() {
+		throw new RuntimeException("only for text.");
 	}
 
 }
